@@ -1,0 +1,50 @@
+body {
+    font-family: "Archivo Black", sans-serif;
+    background-color: rgb(245, 245, 247);
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;   
+    color: rgb(62, 121, 215);
+    width: 35%;
+    background-color: white;
+    padding: 70px;
+    border-radius: 10px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+h1 {
+    font-size: 50px;
+}
+
+p {
+     font-family: "Roboto", sans-serif;
+     color: rgb(129, 123, 123);
+}
+
+.aries-img {
+    width: 100px;
+    height: 100px;
+}
+
+.nextButton{
+    padding: 10px;
+    border-radius: 7px;
+    border: lightgrey;
+    cursor: pointer;  
+    font-size: 1rem;  
+    font-weight: bold;
+    color: grey
+}
+
+.nextButton:active {
+      transform: scale(.9);
+}
+
+

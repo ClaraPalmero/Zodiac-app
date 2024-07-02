@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="app.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+    <title>Form</title>
+</head>
+<body>
+    <div id="container">
+        <div id="title">
+            <h1>Horóscopo</h1>
+            <p class="subtitle">Aprende sobre la influencia que tu signo tiene en ti</p>
+        </div>
+        <div id="form">
+            <form id="formulario" >
+                    <section class="name">
+                        <h2>Nombre</h2>
+                        <input type="text" class="name_input" required>                 
+                    
+                        <h2>Apellidos</h2>
+                        <input type="text" class="surname_input" required>   
+                    </section>   
+                    
+                    <section class="select">
+                        <h2>Selecciona tu signo</h2>
+                        <select name="horoscopo" id="hor">
+                            <option value="Select">Selecciona un signo</option>
+                            <option value="Capricornio">Capricornio</option>
+                            <option value="Acuario">Acuario</option>
+                            <option value="Piscis">Piscis</option>                
+                            <option value="Aries">Aries</option>
+                            <option value="Tauro">Tauro</option>
+                            <option value="Geminis">Géminis</option>
+                            <option value="Cancer">Cáncer</option>
+                            <option value="Leo">Leo</option>
+                            <option value="Virgo">Virgo</option>
+                            <option value="Libra">Libra</option>
+                            <option value="Escorpio">Escorpio</option>
+                            <option value="Sagitario">Sagitario</option>
+                        </select>  
+                        <p class="error-message">Error en su solicitud</p>   
+                        <br>
+                        <br>
+                        <button type="submit">Enviar</button>  
+                    </section>                         
+            </form>    
+             
+        </div>
+    </div>
+   <div class="footer"></div>
+    
+    
+</body>
+</html>

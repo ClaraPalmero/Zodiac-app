@@ -1,0 +1,93 @@
+body {
+    font-family: "Archivo Black", sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;   
+}
+
+#title {
+    padding: 50px;
+    background-image: url(https://cdn.pixabay.com/photo/2023/02/21/19/38/universe-7804938_1280.jpg);
+    color: white;
+    border-radius: 10px;
+    width: 70%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+     text-align: center;  
+}
+
+h1 {        
+    font-size:  50px ; 
+}
+
+#form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 18x;
+    background-color: rgb(51, 164, 230);
+    padding: 20px;
+    border-radius: 10px;
+    width: 65%;   
+}
+#formulario{
+    flex-direction: column;
+}
+
+h2 {
+    margin-bottom: 1px;
+    color: rgb(14, 14, 14);
+}
+
+.name {
+    padding: 30px;
+}
+
+.select {
+    padding: 30px;
+}
+
+input {
+    border-radius: 8px;
+    border-color: white;
+    width: 250px;
+    height: 30px;
+}
+
+.error-message {
+    color: red; 
+    display: none;
+    background-color: rgb(251, 253, 253);
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+   
+}
+
+#hor {
+    width: 250px;
+    height: 30px;
+    border-radius: 8px;
+    border-color: white;
+}
+
+button {
+    border-radius: 7px;
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+
+}
+
+.footer {
+    height: 50px;
+}
+
+.nextButton {
+    padding: 30px;
+}
